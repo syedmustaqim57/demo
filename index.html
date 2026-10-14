@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Larkspur Dental Studio | Gentle, Modern Dentistry for the Whole Family</title>
+  <meta name="description" content="Larkspur Dental Studio offers general, cosmetic and family dentistry with transparent pricing, modern equipment and Saturday appointments. Sample website concept by NAZ Digital.">
+  <meta name="theme-color" content="#0b7476">
+  <meta property="og:title" content="Larkspur Dental Studio">
+  <meta property="og:description" content="Gentle, modern dentistry for the whole family. Sample website concept by NAZ Digital.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230b7476'/%3E%3Cpath d='M16 8c-2 0-3 .8-5 .8S8 8 7 9.5 6.5 14 8 16.5s1 7 3 7c1.5 0 1.5-4 5-4s3.5 4 5 4c2 0 1.5-4.500 3-7s1.500-5.500.5-7S21 8.800 19 8.800 18 8 16 8z' fill='none' stroke='%23fff' stroke-width='1.800' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-tooth" viewBox="0 0 24 24"><path d="M12 3c-2 0-3 .8-5 .8S4 3 3 4.500 2.500 9 4 12s1 9 3 9c1.500 0 1.500-5 5-5s3.500 5 5 5c2 0 1.500-6 3-9s1.500-6 .5-7.500S19 3.800 17 3.800 14 3 12 3z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.700"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.200 7-11a7 7 0 1 0-14 0c0 4.800 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.500" fill="none" stroke="currentColor" stroke-width="1.700"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.700"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.500 4.500 4.500L19 7.500" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.500 3 8 7 10 4-2 7-5.500 7-10V6l-7-3z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.800 5.200L19 10l-5.200 1.800L12 17l-1.800-5.200L5 10l5.200-1.800L12 3zM18 16l.8 2.200L21 19l-2.200.8L18 22l-.8-2.200L15 19l2.200-.8L18 16z" fill="none" stroke="currentColor" stroke-width="1.500" stroke-linejoin="round"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.400-7-10a4 4 0 0 1 7-2.500A4 4 0 0 1 19 10c0 5.600-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.700"/><path d="M3 10h18M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5" fill="none" stroke="currentColor" stroke-width="1.700"/><path d="M9 13.500 8 21l4-2 4 2-1-7.500" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.700"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.700"/><circle cx="17.500" cy="6.500" r=".8" fill="currentColor"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.500A.5.5 0 0 1 14 8z" fill="none" stroke="currentColor" stroke-width="1.600" stroke-linejoin="round"/></symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.900 7L4 20l1.100-4A8 8 0 1 1 20 12z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/><path d="M9 9c0 3 3 6 6 6l1-1.500-2-1-1 .8c-1-.4-2-1.400-2.400-2.400l.8-1-1-2L9 9z" fill="currentColor"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Larkspur Dental Studio, home">
+        <span class="brand-mark"><svg class="i"><use href="#i-tooth"/></svg></span>
+        <span class="brand-text"><strong>Larkspur</strong><small>Dental Studio</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#treatments">Treatments</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="#book">Book appointment</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">Family and cosmetic dentistry</p>
+          <h1 id="hero-title">A dental visit you won't need to brace for.</h1>
+          <p class="lead">Unhurried appointments, clear explanations and prices agreed before treatment begins. Whether it's a check-up or a full smile makeover, you'll always know what is happening and why.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#book">Book an appointment</a>
+            <a class="btn btn-ghost btn-lg" href="tel:+15550100"><svg class="i"><use href="#i-phone"/></svg>Call the clinic</a>
+          </div>
+          <ul class="hero-points" aria-label="Why patients choose us">
+            <li><svg class="i"><use href="#i-calendar"/></svg><span>Open Saturdays</span></li>
+            <li><svg class="i"><use href="#i-shield"/></svg><span>Low-dose digital X-rays</span></li>
+            <li><svg class="i"><use href="#i-chat"/></svg><span>Fixed quotes up front</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <div class="arch media" data-fallback-label="Dentist treating a patient">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=75" alt="Dentist examining a patient in a bright, modern treatment room" width="1000" height="1250" fetchpriority="high">
+          </div>
+          <div class="hero-badge">
+            <span class="hero-badge-icon"><svg class="i"><use href="#i-heart"/></svg></span>
+            <p><strong>New patients welcome</strong><span>First consultations take about 30 minutes</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST ============ -->
+    <section class="trust" id="trust" aria-labelledby="trust-title">
+      <div class="container">
+        <h2 id="trust-title" class="visually-hidden">Clinic at a glance</h2>
+        <dl class="stats">
+          <div><dt>Years of combined experience</dt><dd>40+</dd></div>
+          <div><dt>Patients treated</dt><dd>12,000+</dd></div>
+          <div><dt>Registered specialists on the team</dt><dd>4</dd></div>
+          <div><dt>Patients who would recommend us</dt><dd>98%</dd></div>
+        </dl>
+        <p class="sample-note"><svg class="i"><use href="#i-clock"/></svg>Sample figures for this website concept. They will be replaced with the clinic's verified numbers.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media">
+          <div class="media about-main" data-fallback-label="Clinic reception and waiting area">
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=75" alt="Bright, modern dental clinic interior with a treatment chair" width="1000" height="800" loading="lazy">
+          </div>
+          <div class="media about-inset" data-fallback-label="Treatment room">
+            <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=75" alt="Dental treatment room with modern equipment" width="600" height="600" loading="lazy">
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <h2 id="about-title">A calm clinic, built around how you actually feel in the chair</h2>
+          <p>Larkspur Dental Studio was designed for people who put off the dentist. Soft lighting, quiet equipment and a team that explains each step before it happens make routine care feel straightforward.</p>
+          <p>Our philosophy is simple: prevent problems early, treat only what is needed, and never surprise you with a bill. Every treatment plan is written down, costed and discussed before we begin.</p>
+          <ul class="check-list">
+            <li><svg class="i"><use href="#i-check"/></svg>Three private treatment rooms and a separate children's area</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Digital X-rays and intraoral cameras so you can see what we see</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Noise-reducing headphones, blankets and numbing gel for anxious patients</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Step-free access, with a quiet room for recovery after treatment</li>
+          </ul>
+          <a class="btn btn-secondary" href="#book">Arrange a first visit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TREATMENTS ============ -->
+    <section class="section treatments" id="treatments" aria-labelledby="treatments-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="treatments-title">Treatments for every stage of your smile</h2>
+          <p>From six-monthly check-ups to complete restorations, everything is carried out under one roof by a team that knows your history.</p>
+        </header>
+
+        <div class="treat-grid">
+          <article class="treat treat-lg">
+            <div class="media" data-fallback-label="Cosmetic dentistry">
+              <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=900&q=75" alt="Close-up of a bright, natural-looking smile" width="900" height="600" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Cosmetic dentistry</h3>
+              <p>Veneers, bonding and smile design planned around your face, your teeth and what you want to change. We show you a preview before anything is done.</p>
+              <button class="link-btn" type="button" data-treatment="Cosmetic dentistry">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat treat-lg">
+            <div class="media" data-fallback-label="Dental implants">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=900&q=75" alt="Dentist preparing instruments for an implant procedure" width="900" height="600" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Dental implants</h3>
+              <p>A fixed, natural-feeling replacement for missing teeth, planned with 3D imaging and placed with a clear, staged timeline.</p>
+              <button class="link-btn" type="button" data-treatment="Dental implants">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat">
+            <div class="media" data-fallback-label="General dentistry">
+              <img src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=700&q=75" alt="Dentist carrying out a routine check-up" width="700" height="480" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>General dentistry</h3>
+              <p>Check-ups, fillings and gum care, with problems caught early while they are small.</p>
+              <button class="link-btn" type="button" data-treatment="General dentistry">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat">
+            <div class="media" data-fallback-label="Teeth cleaning">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=75" alt="Dental hygiene tools laid out for a professional clean" width="700" height="480" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Teeth cleaning</h3>
+              <p>Gentle scale and polish that removes plaque and staining, with simple advice for home care.</p>
+              <button class="link-btn" type="button" data-treatment="Teeth cleaning">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat">
+            <div class="media" data-fallback-label="Teeth whitening">
+              <img src="https://images.unsplash.com/photo-1445527815219-ecbfec67492e?auto=format&fit=crop&w=700&q=75" alt="Person smiling with brightly whitened teeth" width="700" height="480" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Teeth whitening</h3>
+              <p>Dentist-supervised whitening in clinic or with custom trays at home, kept gentle on enamel and gums.</p>
+              <button class="link-btn" type="button" data-treatment="Teeth whitening">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat">
+            <div class="media" data-fallback-label="Braces and aligners">
+              <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=75&crop=right" alt="Clear aligner being fitted in a treatment room" width="700" height="480" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Braces and aligners</h3>
+              <p>Clear aligners and traditional braces for teens and adults, with progress checks at every stage.</p>
+              <button class="link-btn" type="button" data-treatment="Braces or aligners">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat">
+            <div class="media" data-fallback-label="Root canal treatment">
+              <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=75&crop=left" alt="Dental chair and microscope used for root canal treatment" width="700" height="480" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Root canal treatment</h3>
+              <p>Pain relief and tooth preservation using magnification and local anaesthetic for a comfortable visit.</p>
+              <button class="link-btn" type="button" data-treatment="Root canal treatment">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat">
+            <div class="media" data-fallback-label="Dental crowns">
+              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=700&q=75&crop=left" alt="Dentist checking the fit of a dental crown" width="700" height="480" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Crowns</h3>
+              <p>Strong, natural-shade crowns that protect weakened teeth and restore how they look and work.</p>
+              <button class="link-btn" type="button" data-treatment="Crowns">Book this treatment</button>
+            </div>
+          </article>
+
+          <article class="treat treat-wide">
+            <div class="media" data-fallback-label="Pediatric dentistry">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=900&q=75&crop=right" alt="Friendly dental team welcoming a young patient" width="900" height="500" loading="lazy">
+            </div>
+            <div class="treat-body">
+              <h3>Pediatric dentistry</h3>
+              <p>A relaxed first visit for little ones, then regular check-ups, fissure sealants and fluoride care. We let children explore the chair, the lights and the tools before anything is done, so dentistry stays familiar rather than frightening.</p>
+              <button class="link-btn" type="button" data-treatment="Pediatric dentistry">Book this treatment</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container why-grid">
+        <div class="why-media">
+          <div class="media" data-fallback-label="Modern dental equipment">
+            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=900&q=75&crop=right" alt="Modern dental equipment in a clean treatment room" width="900" height="1100" loading="lazy">
+          </div>
+        </div>
+        <div class="why-copy">
+          <h2 id="why-title">Why patients stay with us for years</h2>
+          <ul class="why-list">
+            <li>
+              <svg class="i"><use href="#i-sparkle"/></svg>
+              <div><h3>Modern equipment</h3><p>Digital imaging, intraoral cameras and precise tools mean faster, more comfortable treatment.</p></div>
+            </li>
+            <li>
+              <svg class="i"><use href="#i-award"/></svg>
+              <div><h3>Experienced professionals</h3><p>A small, stable team, so you see familiar faces who already know your history.</p></div>
+            </li>
+            <li>
+              <svg class="i"><use href="#i-shield"/></svg>
+              <div><h3>Hospital-grade hygiene</h3><p>Every instrument is sterilised and sealed, and every room is reset between patients.</p></div>
+            </li>
+            <li>
+              <svg class="i"><use href="#i-heart"/></svg>
+              <div><h3>Comfort comes first</h3><p>Pause signals, headphones and clear numbing options, so you stay in control.</p></div>
+            </li>
+            <li>
+              <svg class="i"><use href="#i-chat"/></svg>
+              <div><h3>Transparent communication</h3><p>Written treatment plans with costs, options and timelines before we begin.</p></div>
+            </li>
+            <li>
+              <svg class="i"><use href="#i-calendar"/></svg>
+              <div><h3>Convenient appointments</h3><p>Early starts, evening slots and Saturday mornings, with reminders by text or email.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DOCTORS ============ -->
+    <section class="section doctors" id="doctors" aria-labelledby="doctors-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="doctors-title">Meet the dentists</h2>
+          <p>A friendly team with complementary specialties. <span class="inline-tag">Illustrative profiles</span> These people are fictional and will be replaced with the clinic's real team.</p>
+        </header>
+
+        <div class="doc-grid">
+          <article class="doc">
+            <div class="doc-photo media" data-fallback-label="Portrait">
+              <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=75" alt="Portrait of Dr. Elena Marchetti, principal dentist (illustrative)" width="600" height="750" loading="lazy">
+            </div>
+            <h3>Dr. Elena Marchetti</h3>
+            <p class="doc-role">Principal dentist, restorative and cosmetic</p>
+            <p class="doc-qual">BDS, MSc Restorative Dentistry</p>
+            <p class="doc-bio">Elena founded the studio after fifteen years in general practice. She leads smile design and complex restorative cases.</p>
+          </article>
+
+          <article class="doc">
+            <div class="doc-photo media" data-fallback-label="Portrait">
+              <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=75" alt="Portrait of Dr. Rohan Mehta, orthodontist (illustrative)" width="600" height="750" loading="lazy">
+            </div>
+            <h3>Dr. Rohan Mehta</h3>
+            <p class="doc-role">Orthodontics and clear aligners</p>
+            <p class="doc-qual">BDS, MOrth</p>
+            <p class="doc-bio">Rohan treats teens and adults with aligners and braces, and explains each stage with 3D previews.</p>
+          </article>
+
+          <article class="doc">
+            <div class="doc-photo media" data-fallback-label="Portrait">
+              <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=75" alt="Portrait of Dr. Sofia Lindqvist, pediatric dentist (illustrative)" width="600" height="750" loading="lazy">
+            </div>
+            <h3>Dr. Sofia Lindqvist</h3>
+            <p class="doc-role">Pediatric and family dentistry</p>
+            <p class="doc-qual">BDS, Dip. Paediatric Dentistry</p>
+            <p class="doc-bio">Sofia makes first visits playful and low-pressure, and is known for working patiently with nervous children.</p>
+          </article>
+
+          <article class="doc">
+            <div class="doc-photo media" data-fallback-label="Portrait">
+              <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=600&q=75" alt="Portrait of Dr. James Whitaker, implant and root canal specialist (illustrative)" width="600" height="750" loading="lazy">
+            </div>
+            <h3>Dr. James Whitaker</h3>
+            <p class="doc-role">Implants and endodontics</p>
+            <p class="doc-qual">BDS, MClinDent Implantology</p>
+            <p class="doc-bio">James places implants and carries out root canal treatment, using guided planning and magnification.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BEFORE / AFTER ============ -->
+    <section class="section results" id="results" aria-labelledby="results-title">
+      <div class="container results-grid">
+        <div class="results-copy">
+          <h2 id="results-title">See the difference a plan makes</h2>
+          <p>Drag the handle to compare. Before any cosmetic treatment, we show you a simulated preview, so you can decide with confidence what is right for you.</p>
+          <p class="sample-note"><svg class="i"><use href="#i-clock"/></svg>Illustrative simulation: this uses a stock photo with a colour filter. It is not a real patient result. Real before-and-after photos are added only with patient consent.</p>
+        </div>
+
+        <div class="ba" id="ba" style="--pos:50%">
+          <div class="ba-layer ba-after media" data-fallback-label="After (simulated)">
+            <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=75" alt="Smile after whitening (simulated)" width="1000" height="700" loading="lazy">
+          </div>
+          <div class="ba-layer ba-before media" data-fallback-label="Before (simulated)">
+            <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=75" alt="Smile before whitening (simulated)" width="1000" height="700" loading="lazy">
+          </div>
+          <span class="ba-tag ba-tag-before">Before (simulated)</span>
+          <span class="ba-tag ba-tag-after">After (simulated)</span>
+          <span class="ba-handle" aria-hidden="true"></span>
+          <label class="visually-hidden" for="ba-range">Comparison slider: move to reveal before and after</label>
+          <input id="ba-range" class="ba-range" type="range" min="0" max="100" value="50">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="reviews-title">What patients say</h2>
+          <p><span class="inline-tag">Sample testimonials</span> Written for this concept. They are not real reviews and carry no rating. Verified patient reviews will replace them.</p>
+        </header>
+
+        <div class="review-layout">
+          <figure class="quote quote-lead">
+            <blockquote>
+              <p>I hadn't seen a dentist in almost six years because I was embarrassed and anxious. They never made me feel judged, and they explained everything before they touched a tooth. I actually looked forward to my follow-up.</p>
+            </blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">M</span><span><strong>Maya R.</strong> Sample patient, check-up and cleaning</span></figcaption>
+          </figure>
+
+          <figure class="quote">
+            <blockquote><p>The aligner plan came with a 3D preview and a written price. No surprises at any stage, which is rare.</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">D</span><span><strong>Daniel K.</strong> Sample patient, clear aligners</span></figcaption>
+          </figure>
+
+          <figure class="quote">
+            <blockquote><p>My son used to cry at the dentist. Here he picked a sticker and asked to come back.</p></blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">P</span><span><strong>Priya S.</strong> Sample parent, pediatric visit</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section book" id="book" aria-labelledby="book-title">
+      <div class="container book-grid">
+        <div class="book-info">
+          <h2 id="book-title">Request an appointment</h2>
+          <p>Tell us what you need and when suits you. The clinic confirms your slot by phone or email.</p>
+          <ol class="steps">
+            <li><strong>Send your request</strong><span>Takes about a minute.</span></li>
+            <li><strong>We confirm your time</strong><span>By phone or email, usually within one working day.</span></li>
+            <li><strong>Visit us</strong><span>Bring any recent X-rays or medication notes if you have them.</span></li>
+          </ol>
+          <p class="book-direct">Prefer to talk? <a href="tel:+15550100">Call +1 (555) 010-0</a></p>
+          <a class="btn btn-whatsapp" href="#" data-whatsapp hidden target="_blank" rel="noopener"><svg class="i"><use href="#i-whatsapp"/></svg>Chat on WhatsApp</a>
+        </div>
+
+        <div class="form-card">
+          <form id="booking-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="f-name">Full name</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+                <p class="error" id="e-name" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone number</label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+1 555 010 0000" required aria-describedby="e-phone">
+                <p class="error" id="e-phone" role="alert"></p>
+              </div>
+              <div class="field field-full">
+                <label for="f-email">Email address</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email">
+                <p class="error" id="e-email" role="alert"></p>
+              </div>
+              <div class="field field-full">
+                <label for="f-treatment">Treatment</label>
+                <select id="f-treatment" name="treatment" required aria-describedby="e-treatment">
+                  <option value="">Choose a treatment</option>
+                  <option>General check-up</option>
+                  <option>General dentistry</option>
+                  <option>Teeth cleaning</option>
+                  <option>Cosmetic dentistry</option>
+                  <option>Teeth whitening</option>
+                  <option>Braces or aligners</option>
+                  <option>Root canal treatment</option>
+                  <option>Dental implants</option>
+                  <option>Crowns</option>
+                  <option>Pediatric dentistry</option>
+                  <option>Not sure, I'd like advice</option>
+                </select>
+                <p class="error" id="e-treatment" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-date">Preferred date</label>
+                <input id="f-date" name="date" type="date" required aria-describedby="e-date">
+                <p class="error" id="e-date" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-time">Preferred time</label>
+                <select id="f-time" name="time" required aria-describedby="e-time">
+                  <option value="">Choose a date first</option>
+                </select>
+                <p class="error" id="e-time" role="alert"></p>
+              </div>
+              <div class="field field-full">
+                <label for="f-message">Message <span class="optional">(optional)</span></label>
+                <textarea id="f-message" name="message" rows="3" placeholder="Anything we should know, such as pain, anxiety or accessibility needs"></textarea>
+              </div>
+              <div class="field field-full field-check">
+                <label class="check">
+                  <input id="f-consent" name="consent" type="checkbox" required aria-describedby="e-consent">
+                  <span>I agree that the clinic may use these details to reply to my request. See the <a href="#privacy">privacy information</a>.</span>
+                </label>
+                <p class="error" id="e-consent" role="alert"></p>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" id="submit-btn">Request appointment</button>
+          </form>
+
+          <div class="form-result" id="form-result" tabindex="-1" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 id="contact-title">Visit or contact us</h2>
+          <ul class="contact-list">
+            <li><svg class="i"><use href="#i-pin"/></svg><div><strong>Address</strong><span>24 Harbour Lane, Sample City, SC 00000<br><em class="sample-inline">Sample address</em></span></div></li>
+            <li><svg class="i"><use href="#i-phone"/></svg><div><strong>Phone</strong><a href="tel:+15550100">+1 (555) 010-0</a></div></li>
+            <li><svg class="i"><use href="#i-mail"/></svg><div><strong>Email</strong><a href="mailto:hello@larkspurdental.example">hello@larkspurdental.example</a></div></li>
+          </ul>
+
+          <h3 class="hours-title"><svg class="i"><use href="#i-clock"/></svg>Opening hours</h3>
+          <table class="hours">
+            <caption class="visually-hidden">Opening hours</caption>
+            <tbody>
+              <tr><th scope="row">Monday to Friday</th><td>8:00 AM to 6:00 PM</td></tr>
+              <tr><th scope="row">Saturday</th><td>9:00 AM to 2:00 PM</td></tr>
+              <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+            </tbody>
+          </table>
+          <p class="small-note">For urgent pain outside these hours, please contact your local emergency dental service.</p>
+        </div>
+
+        <div class="map-card">
+          <div class="map-art" role="img" aria-label="Stylised map placeholder showing a location marker">
+            <svg viewBox="0 0 480 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <rect width="480" height="360" fill="#e8f4f1"/>
+              <path d="M0 250 C 90 220, 150 290, 240 260 S 400 210, 480 240 V360 H0Z" fill="#cfe9f0"/>
+              <g stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round">
+                <path d="M-10 90 L 490 130"/><path d="M130 -10 L 190 370"/><path d="M330 -10 L 300 370"/><path d="M-10 190 L 490 170"/>
+              </g>
+              <g stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".9">
+                <path d="M40 -10 L 70 370"/><path d="M420 -10 L 450 370"/><path d="M-10 40 L 490 60"/>
+              </g>
+              <g fill="#b9dccf"><rect x="210" y="40" width="70" height="42" rx="8"/><rect x="345" y="200" width="80" height="50" rx="8"/><rect x="60" y="120" width="52" height="40" rx="8"/></g>
+              <g transform="translate(237 160)">
+                <circle r="26" fill="#0b7476" opacity=".15"/>
+                <path d="M0 24 C -22 2, -16 -20, 0 -20 S 22 2, 0 24z" fill="#0b7476"/>
+                <circle cy="-6" r="6" fill="#fff"/>
+              </g>
+            </svg>
+          </div>
+          <div class="map-caption">
+            <p><strong>Map placeholder.</strong> No real clinic location is configured on this demo.</p>
+            <a class="btn btn-secondary btn-sm" id="directions-link" href="https://www.google.com/maps/search/?api=1&amp;query=24+Harbour+Lane+Sample+City" target="_blank" rel="noopener">Get directions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <header class="faq-head">
+          <h2 id="faq-title">Questions patients ask us</h2>
+          <p>Can't find your answer? <a href="#contact">Contact the clinic</a> and we'll help.</p>
+          <p class="sample-note"><svg class="i"><use href="#i-clock"/></svg>Sample answers. Policies will be updated to match the clinic.</p>
+        </header>
+
+        <div class="faq-list">
+          <details>
+            <summary>How do I book, change or cancel an appointment?</summary>
+            <p>Use the booking form, call us or message us. To change or cancel, please let us know at least 24 hours ahead so another patient can take the slot.</p>
+          </details>
+          <details>
+            <summary>What happens at a first consultation?</summary>
+            <p>You'll meet your dentist, talk through your history and concerns, and have an examination with any X-rays that are needed. You leave with a clear explanation, options and written costs.</p>
+          </details>
+          <details>
+            <summary>Does treatment hurt?</summary>
+            <p>We use local anaesthetic, numbing gel and a slow, step-by-step approach. You can raise a hand to pause at any time. If you feel anxious, tell us and we will adapt your visit.</p>
+          </details>
+          <details>
+            <summary>How often should I have a check-up and clean?</summary>
+            <p>Most adults benefit from a check-up every six to twelve months. Your dentist will recommend an interval based on your gum health and cavity risk.</p>
+          </details>
+          <details>
+            <summary>How do you keep the clinic hygienic?</summary>
+            <p>Instruments are cleaned, sterilised and sealed before use, surfaces are disinfected between patients, and single-use items are never reused.</p>
+          </details>
+          <details>
+            <summary>What payment options do you offer?</summary>
+            <p>We accept cards and bank transfer, and can discuss instalment plans for larger treatments. We can also provide paperwork for your insurer. Costs are agreed in writing before work begins.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#home" aria-label="Larkspur Dental Studio, back to top">
+          <span class="brand-mark"><svg class="i"><use href="#i-tooth"/></svg></span>
+          <span class="brand-text"><strong>Larkspur</strong><small>Dental Studio</small></span>
+        </a>
+        <p>Gentle, modern dentistry for the whole family.</p>
+        <ul class="social" aria-label="Social media">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="i"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="#" data-whatsapp hidden target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="i"><use href="#i-whatsapp"/></svg></a></li>
+        </ul>
+      </div>
+
+      <nav aria-label="Footer">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#treatments">Treatments</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#book">Book appointment</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>24 Harbour Lane, Sample City</li>
+          <li><a href="tel:+15550100">+1 (555) 010-0</a></li>
+          <li><a href="mailto:hello@larkspurdental.example">hello@larkspurdental.example</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Opening hours</h3>
+        <ul>
+          <li>Mon to Fri: 8:00 AM to 6:00 PM</li>
+          <li>Saturday: 9:00 AM to 2:00 PM</li>
+          <li>Sunday: Closed</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-privacy" id="privacy" tabindex="-1">
+      <h3>Privacy information</h3>
+      <p>Details you enter in the booking form are used only to respond to your appointment request and are not sold or shared for marketing. You can ask the clinic to correct or delete them at any time. This is sample wording and must be reviewed against local data-protection law before launch.</p>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Larkspur Dental Studio. Fictional clinic for demonstration.</p>
+      <p>Website concept by <strong>NAZ Digital</strong></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
